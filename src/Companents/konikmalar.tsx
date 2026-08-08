@@ -3,7 +3,7 @@ const konikmalar = () => {
         <div className="flex justify-center items-center">
 
             <div className=" flex  gap-10">
-                <h1 className="bg-green-600 text-4xl w-40 p-2 rounded-2xl">
+                <h1 className="bg-green-600 text-4xl w-40 p-2 rounded-2xl text-center">
                     Services
                 </h1>
                 <h2 className="w-150 ">
