@@ -1,17 +1,17 @@
 import './App.css'
-import Navbar from './Companents/navbar'
-import Box from './Companents/box'
-import Boxs from './Companents/box1'
-import Konikmalar from './Companents/konikmalar'
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import HomePages from './Companents/Pages/HomePages'
+import ContactCard from './Companents/Pages/contactCard'
 const App = () => {
   return (
-    <div className=' flex flex-col gap-40 '>
-      
-      <Navbar />
-      <Box />
-      <Boxs />
-      <Konikmalar />
+    <div >
+      <Router>
+        <Routes>
+          <Route path="" element={<HomePages />} />
+        <Route path='contactCard' element={<ContactCard/>}/>
+        </Routes>
+      </Router>
+
 
     </div>
 

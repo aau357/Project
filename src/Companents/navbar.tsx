@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom"
+
 const navbar = () => {
     return (
         // Main
-        <div className="flex justify-center gap-150 fixed top-0 left-0 right-0 z-50  ">
+        <div className="flex justify-center gap-150   z-50  ">
             <div className="text-2xl text-shadow-indigo-400 font-bold ">
                 Positiv.UZ
             </div>
@@ -11,9 +13,9 @@ const navbar = () => {
                     href="#home">
                     About us
                 </a >
-                <div className="text-2xl text-shadow-indigo-400 font-light ">
+                <Link to="/ContactCard" className="text-2xl text-shadow-indigo-400 font-light ">
                     Contact
-                </div>
+                </Link >
                 <div className="text-2xl text-shadow-indigo-400 font-light ">
                     Pricing
                 </div>

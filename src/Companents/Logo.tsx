@@ -1,5 +1,3 @@
-
-
 const box1 = () => {
     return (
         <div className="flex items-center justify-center " >
