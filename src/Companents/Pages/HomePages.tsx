@@ -1,6 +1,6 @@
 import Box from "../box"
 import Konikmalar from "../konikmalar"
-import Navbar from "../navbar"
+import Navbar from "../Navbar"
 import Logo from "../Logo"
 
 const HomePages = () => {
