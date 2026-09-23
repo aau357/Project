@@ -6,7 +6,7 @@ const ContactCard = () => {
             {/* Umumiy card uchun */}
             <div className="flex p-5 justify-between gap-10  bg-blue-50 w-200 h-80 shadow-2xl rounded-2xl ">
              
-                <Link to="/home" className="">
+                <Link to="/" className="">
                     <Home />
                 </Link>
              
