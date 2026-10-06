@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { SquareTerminal, Share2, FileText, User } from "lucide-react";
 

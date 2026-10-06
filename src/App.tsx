@@ -5,6 +5,9 @@ import HomePages from './Companents/Pages/HomePages'
 import ContactCard from './Companents/Pages/ContactCard'
 import AboutUs from './Companents/Pages/AboutUs'
 import Pricing from './Companents/Pages/Pricing'
+import Skills from './Companents/Pages/Skills'
+import Projects from './Companents/Pages/Projects'
+import Experience from './Companents/Pages/Experience'
 
 const App = () => {
   return (
@@ -15,6 +18,9 @@ const App = () => {
         <Route path="/ContactCard" element={<ContactCard />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path='/Skills' element={<Skills />} />
+        <Route path='/Projects' element={<Projects />} />
+        <Route path='/Experience' element={<Experience />} />
       </Routes>
     </Router>
   )
