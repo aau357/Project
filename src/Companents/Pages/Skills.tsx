@@ -173,39 +173,44 @@ const Skills = () => {
                 </div>
 
                 <div className="grid grid-cols-2 gap-6 px-10 justify-between">
-                    <div className="rounded-xl  h-50 border-2 bg-white ">
+                    <div className="rounded-xl  h-50  bg-white ">
 
                     </div>
 
-                    <div className="rounded-xl  h-50 border-2 bg-white ">
+                    <div className="rounded-xl  h-50  bg-white ">
 
                     </div>
-                    <div className="rounded-xl  h-50 border-2 bg-white ">
+                    <div className="rounded-xl  h-50  bg-white ">
 
                     </div>
-                    <div className="rounded-xl  h-50 border-2 bg-white ">
+                    <div className="rounded-xl  h-50  bg-white ">
 
                     </div>
-                    <div className="rounded-xl  h-50 border-2 bg-white ">
+                    <div className="rounded-xl  h-50  bg-white ">
 
                     </div>
-                    <div className="rounded-xl  h-50 border-2 bg-white ">
+                    <div className="rounded-xl  h-50  bg-white ">
 
                     </div>
                 </div>
             </div>
+            {/* for diagram */}
             <div className="bg-blue-100 h-150">
 
             </div>
+            {/* for codecraft */}
             <div className="bg-blue-50 h-100">
 
             </div>
+            {/* for reqest*/}
             <div className="bg-blue-100 h-70">
 
             </div>
+            {/* for space */}
             <div className="bg-blue-50 h-15">
 
             </div>
+            {/* ending page */}
             <div className="bg-blue-100 h-50">
 
             </div>
