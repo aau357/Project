@@ -50,16 +50,24 @@ const NavigationBar = () => {
             {isopen && (
                 <div className="flex flex-col  md:hidden gap-2 bg-bg pb-3 px-4">
                     <div className="text-link flex flex-col gap-1.5 font-sans ">
-                        <a href="#about" className="border-b-2 border-t-2 pt-3 pb-3">
+                        <a
+                            onClick={() => setisopen(false)}
+                            href="#about" className="border-b-2 border-t-2 pt-3 pb-3">
                             Men haqimda
                         </a>
-                        <a href="#skills" className="border-b-2 pt-3 pb-3">
+                        <a
+                            onClick={() => setisopen(false)}
+                            href="#skills" className="border-b-2 pt-3 pb-3">
                             Ko'nikmalar
                         </a>
-                        <a href="#projects" className="border-b-2 pt-3 pb-3">
+                        <a
+                            onClick={() => setisopen(false)}
+                            href="#projects" className="border-b-2 pt-3 pb-3">
                             Loyihalar
                         </a>
-                        <a href="#contactcard" className="border-b-2 pt-3 pb-3">
+                        <a
+                            onClick={() => setisopen(false)}
+                            href="#contactcard" className="border-b-2 pt-3 pb-3">
                             Aloqa
                         </a>
 
