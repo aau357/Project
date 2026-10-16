@@ -5,8 +5,8 @@ const About = () => {
 Assalomu alaykum. 
 <span>
 Men Alimardon
-<span/>
-<span/>
+</span>
+</span>
     
     
     
