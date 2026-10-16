@@ -1,4 +1,6 @@
 import { useState } from "react"
+
+
 const NavigationBar = () => {
     const [isopen, setisopen] = useState(false)
     return (
@@ -25,9 +27,10 @@ const NavigationBar = () => {
 
 
                 <div className="text-link  gap-10 font-sans hidden md:flex">
-                    <a href="#about">
+                    <a href="#about" >
                         Men haqimda
                     </a>
+
                     <a href="#skills">
                         Ko'nikmalar
                     </a>

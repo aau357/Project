@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700&family=JetBrains+Mono:wght@300&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -6,4 +7,8 @@
     --color-line: #26302d;
     --color-logtext: #e5ece9;
     --color-link: #95a39e;
+    --color-surface: #151c1a;
+    --color-chegarasi: #26302d;
+    --font-mono: "JetBrains Mono", monospace;
+    --font-display: "Bricolage Grotesque", sans-serif;
 }
