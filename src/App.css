@@ -10,5 +10,8 @@
     --color-surface: #151c1a;
     --color-chegarasi: #26302d;
     --font-mono: "JetBrains Mono", monospace;
+    
+    
+    /* katta shriftlar uchun text */
     --font-display: "Bricolage Grotesque", sans-serif;
 }

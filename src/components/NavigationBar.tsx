@@ -5,7 +5,7 @@ const NavigationBar = () => {
     const [isopen, setisopen] = useState(false)
     return (
         <div className="">
-            <div className="flex justify-between px-4 items-center md:px-50 bg-bg h-20 ">
+            <div className="flex justify-between px-4 items-center md:px-50 bg-bg h-20 border-b-1 border-link  ">
 
 
 
