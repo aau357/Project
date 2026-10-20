@@ -2,37 +2,33 @@ import ProjectsCard from "../ProjectsCard"
 
 const Projects = () => {
   return (
+    <div id="projects" className="bg-bg text-logtext px-4 md:px-50 pt-10 pb-10">
+      <span className="font-mono uppercase text-accent">Loyihalarim</span>
 
+      <span className="font-display md:text-5xl text-3xl flex pt-2">
+        Qilganlarim va qilayotganlarim
+      </span>
 
-    <div id="projects" className="flex justify-between px-4 items-center md:px-50 bg-bg h-20  border-link  ">
-
-      <div className="gap-4">
-        <div className=" pt-10 md:pt-10 ">
-          <span className="font-mono uppercase text-accent">
-            LOYIHALARIM
-          </span>
-        </div>
-
-
-        <span className="font-display md:text-5xl text-3xl md:flex  flex flex-col text-white pt-2 ">
-          <span className="hidden">
-            Men
-          </span>
-          <span>
-            Qilganlarim va qilayotganlarim.
-          </span>
-        </span>
-        <div className="">
-          <ProjectsCard title="" />
-        </div>
+      <div className="grid md:grid-cols-3 gap-4 mt-6">
+        <ProjectsCard
+          title="Shaxsiy portfolio"
+          description="Shu sayt. Komponentlar qayta ishlatiladi, telefon va kompyuterga moslashgan."
+          stack="React · TypeScript · Tailwind"
+          status="Jarayonda"
+        />
+        <ProjectsCard
+          title="Valyuta kursi"
+          description="Markaziy bank API'sidan kunlik kurslarni olib, konvertor va grafik ko'rsatadi."
+          stack="React · fetch · TypeScript"
+          status="Rejada"
+        />
+        <ProjectsCard
+          title="Parol tekshirgich"
+          description="Parol kuchini real vaqtda baholaydi va nega zaif ekanini tushuntiradi."
+          stack="React · useState"
+          status="Rejada"
+        />
       </div>
-<div>
-  <ProjectsCard title=""/>
-</div>
-
-
-
-
     </div>
   )
 }
