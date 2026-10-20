@@ -22,7 +22,7 @@ const About = () => {
           React, TypeScript va Tailwind bilan tez va telefonga mos interfeyslar yasashni o'rganyapman. Axborot xavfsizligi yo'nalishida o'qiyman.
         </span>
         <div className="flex flex-col md:mt-4 md:items-center  md:flex md:flex-row md:h-10 md:w-auto gap-4 md:gap-10 ">
-          <a href="#projects" className="flex  bg-accent w-full p-2 rounded-xl justify-center items-center mt-4 ">
+          <a href="#projects" className="flex  bg-accent w-full p-2 rounded-xl justify-center items-center mt-2 md:mt-0 ">
             Loyihalarni ko'rish
           </a>
           <a href="#contactcard" className="flex border-1 p-2 rounded-xl w-full justify-center items-center">
