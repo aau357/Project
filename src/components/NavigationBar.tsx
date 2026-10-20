@@ -75,9 +75,9 @@ const NavigationBar = () => {
                                 </a>
 
                             </div>
-                            <button className=" rounded-xl border-link border-2 text-link p-2">
+                            <a href="./Rezyume.pdf" download className=" rounded-xl border-link border-2 text-link p-2">
                                 CV yuklash
-                            </button>
+                            </a>
 
                         </div>
                     )}
