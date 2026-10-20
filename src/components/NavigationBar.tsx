@@ -42,47 +42,47 @@ const NavigationBar = () => {
                     </a>
 
                 </div>
-                <button className="hidden md:flex rounded-xl border-link border-2 text-link p-2">
+                <a href="./Rezyume.pdf" download className="hidden md:flex rounded-xl border-link border-2 text-link p-2">
                     CV yuklash
-                </button>
+                    </a>
 
 
 
-
-            </div>
-            {isopen && (
-                <div className="flex flex-col  md:hidden gap-2 bg-bg pb-3 px-4">
-                    <div className="text-link flex flex-col gap-1.5 font-sans ">
-                        <a
-                            onClick={() => setisopen(false)}
-                            href="#about" className="border-b-2 border-t-2 pt-3 pb-3">
-                            Men haqimda
-                        </a>
-                        <a
-                            onClick={() => setisopen(false)}
-                            href="#skills" className="border-b-2 pt-3 pb-3">
-                            Ko'nikmalar
-                        </a>
-                        <a
-                            onClick={() => setisopen(false)}
-                            href="#projects" className="border-b-2 pt-3 pb-3">
-                            Loyihalar
-                        </a>
-                        <a
-                            onClick={() => setisopen(false)}
-                            href="#contactcard" className="border-b-2 pt-3 pb-3">
-                            Aloqa
-                        </a>
 
                     </div>
-                    <button className=" rounded-xl border-link border-2 text-link p-2">
-                        CV yuklash
-                    </button>
+                    {isopen && (
+                        <div className="flex flex-col  md:hidden gap-2 bg-bg pb-3 px-4">
+                            <div className="text-link flex flex-col gap-1.5 font-sans ">
+                                <a
+                                    onClick={() => setisopen(false)}
+                                    href="#about" className="border-b-2 border-t-2 pt-3 pb-3">
+                                    Men haqimda
+                                </a>
+                                <a
+                                    onClick={() => setisopen(false)}
+                                    href="#skills" className="border-b-2 pt-3 pb-3">
+                                    Ko'nikmalar
+                                </a>
+                                <a
+                                    onClick={() => setisopen(false)}
+                                    href="#projects" className="border-b-2 pt-3 pb-3">
+                                    Loyihalar
+                                </a>
+                                <a
+                                    onClick={() => setisopen(false)}
+                                    href="#contactcard" className="border-b-2 pt-3 pb-3">
+                                    Aloqa
+                                </a>
 
-                </div>
-            )}
-        </div>
-    )
+                            </div>
+                            <button className=" rounded-xl border-link border-2 text-link p-2">
+                                CV yuklash
+                            </button>
+
+                        </div>
+                    )}
+            </div>
+            )
 }
 
-export default NavigationBar
+            export default NavigationBar
