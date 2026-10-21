@@ -16,7 +16,7 @@ const Skills = () => {
           Men
         </span>
         <span>
-          Nimani bilaman va nimani o'rganaypman
+          Nimani bilaman va nimani o'rganayapman
         </span>
       </span>
       <div className="grid md:grid-cols-3 gap-4 mt-6">
