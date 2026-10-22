@@ -36,6 +36,7 @@ const About = () => {
  export const me = {
     name: "Alimardon Ashurboyev",
     role: "Junior Frontend Developer",
+    year: "2009.04.07" Hozirda: "17-yoshdaman"
     stack: ["React", "TypeScript", "Tailwind"],
     study: "TITU · Axborot xavfsizligi",
     openToWork: true,
