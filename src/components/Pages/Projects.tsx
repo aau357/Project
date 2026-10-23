@@ -20,7 +20,7 @@ const Projects = () => {
           title="Telegram bot"
           description="Tadbirkorlar uchun qulaylik, mijozlar javobsiz qolib ketmasligini taminlaydi."
           stack="Node.js · Javascript"
-          status="Amalda test qilinmoqda"
+          status="Jarayonda"
         />
         <ProjectsCard
           title="Parol tekshirgich"
