@@ -17,10 +17,10 @@ const Projects = () => {
           status="Jarayonda"
         />
         <ProjectsCard
-          title="Valyuta kursi"
-          description="Markaziy bank API'sidan kunlik kurslarni olib, konvertor va grafik ko'rsatadi."
-          stack="React · fetch · TypeScript"
-          status="Rejada"
+          title="Telegram bot"
+          description="Tadbirkorlar uchun qulaylik, mijozlar javobsiz qolib ketmasligini taminlaydi."
+          stack="Node.js · Javascript"
+          status="Amalda test qilinmoqda."
         />
         <ProjectsCard
           title="Parol tekshirgich"
