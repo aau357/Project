@@ -2,7 +2,7 @@ const ProjectsCard = (props: {
   title: string
   description: string
   stack: string
-  status: "Jarayonda" | "Rejada" | "Amalda test qilinmoqda"
+  status: "Jarayonda" | "Rejada" 
 }) => {
   return (
     <div className="rounded-xl border-2 border-chegarasi bg-surface p-5 flex flex-col gap-3">
